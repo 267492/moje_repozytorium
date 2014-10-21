@@ -1,0 +1,59 @@
+Grupa: Sobczak Wojciech, Dawid Szafrañski, Maciej Manista
+
+Przypadek nr 1
+Nazwa: Dokonaj kupna biletu(z kontem)
+Inicjator: Klient
+Cel: Kupno biletu
+G³ówny scenariusz:
+1. Klient zg³asza chêæ kupna biletu
+2. Klient wybiera cel podró¿y, datê i typ po³¹czenia
+3. System wyœwietla mo¿liwe po³¹czenia
+4. Klient wybiera po³¹czenie
+5. System prosi o stworzenie konta w bazie.
+6. Klient tworzy konto i zalogowuje siê w bazie.
+7. System przyjmuje dane i przypisuje im identyfikator
+8. System podaje Klientowi nr identyfikacji i wysy³a je na maila
+Rozszerzenia:
+1. System odrzuca dane
+a. Klient ponownie podaje dane
+b. Klient rezygnuje z kupna
+2. Brak po³¹czeñ dla wprowadzonych parametrów
+a. Klient wybiera inne opcje podró¿y
+b. Klient rezygnuje z kupna
+
+
+Przypadek nr 2
+Nazwa: Dokonaj kupna biletu(bez konta)
+Inicjator: Klient
+Cel: Kupno biletu
+G³ówny scenariusz:
+1. Klient zg³asza chêæ kupna biletu
+2. Klient wybiera cel podró¿y, datê i typ po³¹czenia
+3. System wyœwietla mo¿liwe po³¹czenia
+4. Klient wybiera po³¹czenie
+6. System akceptuje zakup i przypisuje mu identyfikator.
+7. System podaje Klientowi nr identyfikacji i wyœwietla opcje wydrukowania biletu
+Rozszerzenia:
+1. System odrzuca dane
+a. Klient ponownie podaje dane
+b. Klient rezygnuje z kupna
+2. Brak po³¹czeñ dla wprowadzonych parametrów
+a. Klient wybiera inne opcje podró¿y
+b. Klient rezygnuje z kupna
+
+
+Przypadek nr 3
+Nazwa: Wprowadzanie po³¹czeñ
+Inicjator: Administator
+Cel: Dodawanie nowych po³¹czeñ
+G³ówny scenariusz:
+1. Administrator loguje siê do systemu
+2. System wyœwietla dostêpne opcje
+3. Administrator wybiera funkcjê "Dodaj po³¹czenia"
+4. Administrator wpisuje dane do systemu(stacje, cena, czas)
+5. System akceptuje wprowadzone dane.
+Rozszerzenia:
+1. System znajduje istniej¹ce po³¹czenie
+a. System modyfikuje dane
+
+
